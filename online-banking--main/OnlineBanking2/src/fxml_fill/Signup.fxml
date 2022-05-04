@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.signupController">
+   <children>
+      <TextField fx:id="SignUp1" layoutX="176.0" layoutY="49.0" />
+      <TextField fx:id="SignUp2" layoutX="176.0" layoutY="97.0" />
+      <TextField fx:id="SignUp3" layoutX="176.0" layoutY="149.0" />
+      <TextField fx:id="SignUp4" layoutX="176.0" layoutY="202.0" />
+      <Label layoutX="40.0" layoutY="48.0" prefHeight="27.0" prefWidth="91.0" text="UserName:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="96.0" prefHeight="27.0" prefWidth="91.0" text="Password:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="40.0" layoutY="148.0" prefHeight="27.0" prefWidth="91.0" text="Email:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="26.0" layoutY="201.0" prefHeight="27.0" prefWidth="118.0" text="Card Number">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="Submit_button" layoutX="251.0" layoutY="305.0" mnemonicParsing="false" onAction="#SUBMIT" text="Submit">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
